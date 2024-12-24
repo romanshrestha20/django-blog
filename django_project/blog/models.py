@@ -19,3 +19,4 @@ class Post(models.Model):
         return reverse("post-detail", kwargs={"pk": self.pk})
     
     
+
